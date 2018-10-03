@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F120E70210B6489009C261C /* SedimentaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F120E6F210B6489009C261C /* SedimentaryVC.swift */; };
+		4F2AD854214C259F004F63EB /* SampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2AD853214C259F004F63EB /* SampleVC.swift */; };
+		4F5437542124A1C8005CB8B6 /* NewSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5437532124A1C8005CB8B6 /* NewSampleVC.swift */; };
+		4F5516A3210F5BDF00946173 /* MetamorphicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5516A2210F5BDF00946173 /* MetamorphicVC.swift */; };
+		4F5516A7210F6CFE00946173 /* IgneousVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5516A6210F6CFE00946173 /* IgneousVC.swift */; };
+		4F5516AA210FBBA600946173 /* RockTypeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5516A9210FBBA600946173 /* RockTypeFunctions.swift */; };
+		4F55B78B21013E3E008C99DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F55B78A21013E3E008C99DC /* AppDelegate.swift */; };
+		4F55B79021013E3E008C99DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B78E21013E3E008C99DC /* Main.storyboard */; };
+		4F55B79221013E3F008C99DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B79121013E3F008C99DC /* Assets.xcassets */; };
+		4F55B79521013E3F008C99DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B79321013E3F008C99DC /* LaunchScreen.storyboard */; };
+		4F72FB7B212DF0F0004BBD54 /* RockTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72FB7A212DF0F0004BBD54 /* RockTypeVC.swift */; };
+		4F7E8ED92108D42D003554E6 /* PublicFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E8ED82108D42D003554E6 /* PublicFunctions.swift */; };
+		4F9172BB211638B3009C18B6 /* SpecificRockFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9172BA211638B2009C18B6 /* SpecificRockFunctions.swift */; };
+		4FC448C2210A1B8800638ED5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC448C1210A1B8800638ED5 /* HomeVC.swift */; };
+		4FC898FA21135A67006EC9F9 /* DolomiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC898F921135A67006EC9F9 /* DolomiteVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F120E6F210B6489009C261C /* SedimentaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedimentaryVC.swift; sourceTree = "<group>"; };
+		4F2AD853214C259F004F63EB /* SampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVC.swift; sourceTree = "<group>"; };
+		4F5437532124A1C8005CB8B6 /* NewSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSampleVC.swift; sourceTree = "<group>"; };
+		4F5516A2210F5BDF00946173 /* MetamorphicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetamorphicVC.swift; sourceTree = "<group>"; };
+		4F5516A6210F6CFE00946173 /* IgneousVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgneousVC.swift; sourceTree = "<group>"; };
+		4F5516A9210FBBA600946173 /* RockTypeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockTypeFunctions.swift; sourceTree = "<group>"; };
+		4F55B78721013E3E008C99DC /* PetroGlyph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetroGlyph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F55B78A21013E3E008C99DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F55B78F21013E3E008C99DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F55B79121013E3F008C99DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F55B79421013E3F008C99DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F55B79621013E3F008C99DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F72FB7A212DF0F0004BBD54 /* RockTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockTypeVC.swift; sourceTree = "<group>"; };
+		4F7E8ED82108D42D003554E6 /* PublicFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicFunctions.swift; sourceTree = "<group>"; };
+		4F9172BA211638B2009C18B6 /* SpecificRockFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificRockFunctions.swift; sourceTree = "<group>"; };
+		4FC448C1210A1B8800638ED5 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4FC448C3210A81B000638ED5 /* PetroGlyph-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetroGlyph-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FC898F921135A67006EC9F9 /* DolomiteVC.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = DolomiteVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F55B78421013E3E008C99DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F086EB32118C2CB0037F47C /* Specific Rocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Specific Rocks";
+			sourceTree = "<group>";
+		};
+		4F086ECE2118EE7B0037F47C /* Specific Rocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Specific Rocks";
+			sourceTree = "<group>";
+		};
+		4F120E71210B6520009C261C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FC448C1210A1B8800638ED5 /* HomeVC.swift */,
+				4F5437532124A1C8005CB8B6 /* NewSampleVC.swift */,
+				4F72FB7A212DF0F0004BBD54 /* RockTypeVC.swift */,
+				4F2AD853214C259F004F63EB /* SampleVC.swift */,
+				4F5516AB210FBC9A00946173 /* RockTypeVCs */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F5516A8210FBB7000946173 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E8ED82108D42D003554E6 /* PublicFunctions.swift */,
+				4F5516A9210FBBA600946173 /* RockTypeFunctions.swift */,
+				4F9172BA211638B2009C18B6 /* SpecificRockFunctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		4F5516AB210FBC9A00946173 /* RockTypeVCs */ = {
+			isa = PBXGroup;
+			children = (
+				4FC898F821135A45006EC9F9 /* Sedimentary */,
+				4FC898FB21135BAA006EC9F9 /* Metamorphic */,
+				4FC898FC21135BCD006EC9F9 /* Igneous */,
+			);
+			path = RockTypeVCs;
+			sourceTree = "<group>";
+		};
+		4F55B77E21013E3E008C99DC = {
+			isa = PBXGroup;
+			children = (
+				4F55B78921013E3E008C99DC /* PetroGlyph */,
+				4F55B78821013E3E008C99DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F55B78821013E3E008C99DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F55B78721013E3E008C99DC /* PetroGlyph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F55B78921013E3E008C99DC /* PetroGlyph */ = {
+			isa = PBXGroup;
+			children = (
+				4F5516A8210FBB7000946173 /* Functions */,
+				4F120E71210B6520009C261C /* ViewControllers */,
+				4F55B78A21013E3E008C99DC /* AppDelegate.swift */,
+				4F55B79121013E3F008C99DC /* Assets.xcassets */,
+				4F55B78E21013E3E008C99DC /* Main.storyboard */,
+				4F55B79321013E3F008C99DC /* LaunchScreen.storyboard */,
+				4F55B79621013E3F008C99DC /* Info.plist */,
+				4FC448C3210A81B000638ED5 /* PetroGlyph-Bridging-Header.h */,
+			);
+			path = PetroGlyph;
+			sourceTree = "<group>";
+		};
+		4FC898F721135A17006EC9F9 /* Specific Rocks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC898F921135A67006EC9F9 /* DolomiteVC.swift */,
+			);
+			path = "Specific Rocks";
+			sourceTree = "<group>";
+		};
+		4FC898F821135A45006EC9F9 /* Sedimentary */ = {
+			isa = PBXGroup;
+			children = (
+				4F120E6F210B6489009C261C /* SedimentaryVC.swift */,
+				4FC898F721135A17006EC9F9 /* Specific Rocks */,
+			);
+			path = Sedimentary;
+			sourceTree = "<group>";
+		};
+		4FC898FB21135BAA006EC9F9 /* Metamorphic */ = {
+			isa = PBXGroup;
+			children = (
+				4F5516A2210F5BDF00946173 /* MetamorphicVC.swift */,
+				4F086EB32118C2CB0037F47C /* Specific Rocks */,
+			);
+			path = Metamorphic;
+			sourceTree = "<group>";
+		};
+		4FC898FC21135BCD006EC9F9 /* Igneous */ = {
+			isa = PBXGroup;
+			children = (
+				4F5516A6210F6CFE00946173 /* IgneousVC.swift */,
+				4F086ECE2118EE7B0037F47C /* Specific Rocks */,
+			);
+			path = Igneous;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F55B78621013E3E008C99DC /* PetroGlyph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F55B79921013E3F008C99DC /* Build configuration list for PBXNativeTarget "PetroGlyph" */;
+			buildPhases = (
+				4F55B78321013E3E008C99DC /* Sources */,
+				4F55B78421013E3E008C99DC /* Frameworks */,
+				4F55B78521013E3E008C99DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetroGlyph;
+			productName = PetroGlyph;
+			productReference = 4F55B78721013E3E008C99DC /* PetroGlyph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F55B77F21013E3E008C99DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Geology;
+				TargetAttributes = {
+					4F55B78621013E3E008C99DC = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 4F55B78221013E3E008C99DC /* Build configuration list for PBXProject "PetroGlyph" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F55B77E21013E3E008C99DC;
+			productRefGroup = 4F55B78821013E3E008C99DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F55B78621013E3E008C99DC /* PetroGlyph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F55B78521013E3E008C99DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F55B79521013E3F008C99DC /* LaunchScreen.storyboard in Resources */,
+				4F55B79221013E3F008C99DC /* Assets.xcassets in Resources */,
+				4F55B79021013E3E008C99DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F55B78321013E3E008C99DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC448C2210A1B8800638ED5 /* HomeVC.swift in Sources */,
+				4F2AD854214C259F004F63EB /* SampleVC.swift in Sources */,
+				4F5437542124A1C8005CB8B6 /* NewSampleVC.swift in Sources */,
+				4FC898FA21135A67006EC9F9 /* DolomiteVC.swift in Sources */,
+				4F120E70210B6489009C261C /* SedimentaryVC.swift in Sources */,
+				4F5516A7210F6CFE00946173 /* IgneousVC.swift in Sources */,
+				4F72FB7B212DF0F0004BBD54 /* RockTypeVC.swift in Sources */,
+				4F9172BB211638B3009C18B6 /* SpecificRockFunctions.swift in Sources */,
+				4F7E8ED92108D42D003554E6 /* PublicFunctions.swift in Sources */,
+				4F5516A3210F5BDF00946173 /* MetamorphicVC.swift in Sources */,
+				4F55B78B21013E3E008C99DC /* AppDelegate.swift in Sources */,
+				4F5516AA210FBBA600946173 /* RockTypeFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F55B78E21013E3E008C99DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F55B78F21013E3E008C99DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F55B79321013E3F008C99DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F55B79421013E3F008C99DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F55B79721013E3F008C99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F55B79821013E3F008C99DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F55B79A21013E3F008C99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4L4TY8778;
+				INFOPLIST_FILE = PetroGlyph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Geology.PetroGlyph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetroGlyph/PetroGlyph-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F55B79B21013E3F008C99DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4L4TY8778;
+				INFOPLIST_FILE = PetroGlyph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Geology.PetroGlyph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetroGlyph/PetroGlyph-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F55B78221013E3E008C99DC /* Build configuration list for PBXProject "PetroGlyph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F55B79721013E3F008C99DC /* Debug */,
+				4F55B79821013E3F008C99DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F55B79921013E3F008C99DC /* Build configuration list for PBXNativeTarget "PetroGlyph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F55B79A21013E3F008C99DC /* Debug */,
+				4F55B79B21013E3F008C99DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F55B77F21013E3E008C99DC /* Project object */;
+}

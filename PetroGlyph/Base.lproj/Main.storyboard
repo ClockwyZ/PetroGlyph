@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PetroGlyph" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="8Pv-0Y-uhN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z83-Ca-uBP">
+                                <rect key="frame" x="0.0" y="625.66666666666663" width="414" height="110.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PetroGlyph" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCB-fl-WKs">
+                                        <rect key="frame" x="82" y="26" width="251" height="58"/>
+                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.55298195422535212" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QCB-fl-WKs" firstAttribute="centerX" secondItem="z83-Ca-uBP" secondAttribute="centerX" id="0Cd-37-EVB"/>
+                                    <constraint firstItem="QCB-fl-WKs" firstAttribute="centerY" secondItem="z83-Ca-uBP" secondAttribute="centerY" id="4fY-Kv-Aok"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Pv-0Y-uhN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="K6P-y4-gr4"/>
+                            <constraint firstAttribute="trailing" secondItem="8Pv-0Y-uhN" secondAttribute="trailing" id="MjL-dz-3AK"/>
+                            <constraint firstItem="z83-Ca-uBP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sqn-1B-Bhb"/>
+                            <constraint firstItem="8Pv-0Y-uhN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UCG-ao-Jyi"/>
+                            <constraint firstItem="8Pv-0Y-uhN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aUc-qG-Rrl"/>
+                            <constraint firstAttribute="bottom" secondItem="8Pv-0Y-uhN" secondAttribute="bottom" id="cGo-J7-2z3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z83-Ca-uBP" secondAttribute="bottom" id="jMF-p8-OTX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Pv-0Y-uhN" secondAttribute="trailing" id="kdD-kE-wUd"/>
+                            <constraint firstAttribute="bottom" secondItem="8Pv-0Y-uhN" secondAttribute="bottom" id="mWq-7A-1nS"/>
+                            <constraint firstAttribute="bottom" secondItem="8Pv-0Y-uhN" secondAttribute="bottom" id="msx-t1-cPD"/>
+                            <constraint firstItem="8Pv-0Y-uhN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q8R-ZU-l0R"/>
+                            <constraint firstItem="z83-Ca-uBP" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="qiV-1i-7Zh"/>
+                            <constraint firstItem="8Pv-0Y-uhN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uk2-cH-dbr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z83-Ca-uBP" secondAttribute="trailing" id="vdQ-yR-Ayk"/>
+                            <constraint firstAttribute="trailing" secondItem="8Pv-0Y-uhN" secondAttribute="trailing" id="wzY-a3-Qa9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.199999999999999" y="33.251231527093594"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1920x1080" width="1920" height="1080"/>
+    </resources>
+</document>
