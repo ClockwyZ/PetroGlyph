@@ -100,12 +100,12 @@ class RockTypeVC: UIViewController {
         let index = buttons.firstIndex(of: sender)
         
         let sample = SampleVC()
-        sample.navBarTitle = sampleNames[index!]
+        sample.navBarTitle = sampleNames[index!]/*
         sample.slideImages = [#imageLiteral(resourceName: "DolomitePPL0"),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteRef),#imageLiteral(resourceName: DolomiteCL),#imageLiteral(resourceName: DolomiteBSE)] // Plane polarized, cross polarized, reflected light, cathode luminescence, backscatter electrons
         sample.planePolarizedRotatePolarImages = [#imageLiteral(resourceName: DolomitePPL90),#imageLiteral(resourceName: DolomitePPL0),#imageLiteral(resourceName: DolomitePPL90)] // 90 degree increments
         sample.crossPolarizedRotatePolarImages = [#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75)]
         sample.elementMapImages = [] // Al, Ca, Fe, K, Mg, Si, Ti
-        
+        */
         // TODO: Add the mapped images to this sucker
         
         self.navigationController?.pushViewController(sample, animated: false)
