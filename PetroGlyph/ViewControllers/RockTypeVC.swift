@@ -15,7 +15,6 @@ class RockTypeVC: UIViewController {
     public var sampleNames: Array<String?> = []
     public var rockVCs: Array<UIViewController> = []
     let scrollView = UIScrollView()
-    private var i: Int = 0
 
     
     func setupNavBar() {
@@ -44,31 +43,27 @@ class RockTypeVC: UIViewController {
         let buttonHeight = screenHeight * 0.15
         let buttonWidth = screenWidth * 0.65
         
-        
-        while (i < buttons.endIndex) {
-            // Defines the functionality of the button
-            buttons[i]! = UIButton(type: UIButtonType.system)
-            buttons[i]!.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
+        for index in 0...(buttons.endIndex - 1) {
+            buttons[index]! = UIButton(type: UIButtonType.system)
+            buttons[index]!.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
             
             // Gives x and y placement coordinates and height and width of button
-            buttons[i]!.frame = CGRect(x: (screenWidth / 2) - (buttonWidth / 2), y: edgeGap + (buttonHeightFunction * CGFloat(i)), width: buttonWidth, height: buttonHeight)
+            buttons[index]!.frame = CGRect(x: (screenWidth / 2) - (buttonWidth / 2), y: edgeGap + (buttonHeightFunction * CGFloat(index)), width: buttonWidth, height: buttonHeight)
             
             // Creates and customizes the button label
-            buttons[i]!.setTitle(sampleNames[i]!, for: .normal)
-            buttons[i]!.titleLabel!.font = UIFont.boldSystemFont(ofSize: screenHeight / 40)
-            buttons[i]!.setTitleColor(UIColor.white, for: .normal)
+            buttons[index]!.setTitle(sampleNames[index]!, for: .normal)
+            buttons[index]!.titleLabel!.font = UIFont.boldSystemFont(ofSize: screenHeight / 40)
+            buttons[index]!.setTitleColor(UIColor.white, for: .normal)
             
             // Makes button slightly transparent
-            buttons[i]!.backgroundColor = UIColor.blue.withAlphaComponent(0.25)
+            buttons[index]!.backgroundColor = UIColor.blue.withAlphaComponent(0.25)
             
             // Gives button rounded look
-            buttons[i]!.layer.cornerRadius = (buttons[i]!.frame.height / 2)
+            buttons[index]!.layer.cornerRadius = (buttons[index]!.frame.height / 2)
             
-            buttons[i]?.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
+            buttons[index]?.addTarget(self, action: #selector(buttonAction), for: UIControlEvents.touchUpInside)
             
-            scrollView.addSubview(buttons[i]!)
-            
-            i += 1
+            scrollView.addSubview(buttons[index]!)
         }
     }
     
@@ -81,8 +76,6 @@ class RockTypeVC: UIViewController {
         setupNavBar()
         setupScrollView()
         setupButtons()
-        
-        i = 0
     }
     
     @objc func goBack() {
@@ -100,13 +93,19 @@ class RockTypeVC: UIViewController {
         let index = buttons.firstIndex(of: sender)
         
         let sample = SampleVC()
-        sample.navBarTitle = sampleNames[index!]/*
-        sample.slideImages = [#imageLiteral(resourceName: "DolomitePPL0"),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteRef),#imageLiteral(resourceName: DolomiteCL),#imageLiteral(resourceName: DolomiteBSE)] // Plane polarized, cross polarized, reflected light, cathode luminescence, backscatter electrons
-        sample.planePolarizedRotatePolarImages = [#imageLiteral(resourceName: DolomitePPL90),#imageLiteral(resourceName: DolomitePPL0),#imageLiteral(resourceName: DolomitePPL90)] // 90 degree increments
-        sample.crossPolarizedRotatePolarImages = [#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75),#imageLiteral(resourceName: DolomiteXPL0),#imageLiteral(resourceName: DolomiteXPL15),#imageLiteral(resourceName: DolomiteXPL30),#imageLiteral(resourceName: DolomiteXPL45),#imageLiteral(resourceName: DolomiteXPL60),#imageLiteral(resourceName: DolomiteXPL75)]
-        sample.elementMapImages = [] // Al, Ca, Fe, K, Mg, Si, Ti
-        */
+        sample.navBarTitle = sampleNames[index!]
+
+        sample.slideImages = [UIImage(named: "DolomitePPL0"), UIImage(named: "DolomiteXPL0"), UIImage(named: "DolomiteRef"), UIImage(named: "DolomiteCL"), UIImage(named: "DolomiteBSE")] as! Array<UIImage> // Plane polarized, cross polarized, reflected light, cathode luminescence, backscatter electrons
+        
+        sample.planePolarizedRotatePolarImage = UIImage(named: "DolomitePPL90")!
+        
+        sample.crossPolarizedRotatePolarImages = [UIImage(named: "DolomiteXPL15"), UIImage(named: "DolomiteXPL30"), UIImage(named: "DolomiteXPL45"), UIImage(named: "DolomiteXPL60"), UIImage(named: "DolomiteXPL75")] as! Array<UIImage>
+        
+        sample.elementMapImages = [UIImage(named: "DolomiteAl"), UIImage(named: "DolomiteCa"), UIImage(named: "DolomiteFe"), UIImage(named: "DolomiteK"), UIImage(named: "DolomiteMg"), UIImage(named: "DolomiteSi"), UIImage(named: "DolomiteTi")] as! Array<UIImage> // Al, Ca, Fe, K, Mg, Si, Ti
+        
         // TODO: Add the mapped images to this sucker
+        // TODO: Create switch statements for each button with all the images
+
         
         self.navigationController?.pushViewController(sample, animated: false)
     }

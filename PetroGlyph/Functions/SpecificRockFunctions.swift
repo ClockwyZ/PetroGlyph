@@ -5,7 +5,7 @@
 //  Created by Connor Zufelt on 8/4/18.
 //  Copyright © 2018 Geology. All rights reserved.
 //
-
+/*
 import Foundation
 import UIKit
 
@@ -64,3 +64,4 @@ func changeImage(image: UIImage, previousImage: UIImageView) -> UIImageView {
     
     return imageView
 }
+*/

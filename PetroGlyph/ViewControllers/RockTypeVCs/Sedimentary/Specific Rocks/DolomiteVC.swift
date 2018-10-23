@@ -5,7 +5,7 @@
 //  Created by Connor Zufelt on 8/2/18.
 //  Copyright © 2018 Geology. All rights reserved.
 //
-
+/*
 import Foundation
 import UIKit
 
@@ -419,3 +419,4 @@ class DolomiteVC: UIViewController {
         }
     }
 }
+*/
