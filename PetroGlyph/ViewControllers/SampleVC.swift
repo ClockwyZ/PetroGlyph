@@ -471,7 +471,7 @@ class SampleVC: UIViewController, UIScrollViewDelegate {
     
     
     @objc func setCurrentSlide(sender: UIButton, image: UIImage) {
-        if currentSlide == elementMap {
+        if currentSlide == elementMap && sender != elementMap {
             for index in 0...elementMapButtons.endIndex - 1 {
                 elementMapButtons[index].removeFromSuperview()
             }
