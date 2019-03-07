@@ -50,6 +50,17 @@ class SampleVC: UIViewController, UIScrollViewDelegate {
     var Mg = UIButton()
     var Si = UIButton()
     var Ti = UIButton()
+    var elementMapButtons: Array<UIButton> = []
+    let elementMapButtonLabels: Array<String> = ["Al", "Ca", "Fe", "K", "Mg", "Si", "Ti"]
+    
+    var volcanic = UIButton()
+    var plutonic = UIButton()
+    var ultramafic = UIButton()
+    var metamorphic = UIButton()
+    var carbonate = UIButton()
+    var clastic = UIButton()
+    var classificationButtons: Array<UIButton> = []
+    let classificationButtonLabels: Array<String> = ["Volcanic", "Plutonic", "Ultramafic", "Metamorphic", "Carbonate", "Clastic"]
     
     var planePolarizedAngle = CShort()
     var crossPolarizedAngle = CShort()
@@ -65,8 +76,6 @@ class SampleVC: UIViewController, UIScrollViewDelegate {
     var slideButtonImagesNormal: Array<UIImage> = []
     var slideButtonImagesSelected: Array<UIImage> = []
     
-    var elementMapButtons: Array<UIButton> = []
-    let elementMapButtonLabels: Array<String> = ["Al", "Ca", "Fe", "K", "Mg", "Si", "Ti"]
     
     enum buttonIndexes {
         case Explore, Query, Measure, Protractor, Pointcounter, Classification, Interferencecolors, Minerallist
@@ -373,6 +382,8 @@ class SampleVC: UIViewController, UIScrollViewDelegate {
         slideButtons = [planePolarized, crossPolarized, rotateRight, rotateLeft, reflectedLight, bertrandLens, cathodeLuminescence, elementMap, backscatterElectronMap, energyDispersive]
         
         elementMapButtons = [Al, Ca, Fe, K, Mg, Si, Ti]
+        
+        classificationButtons = [volcanic, plutonic, ultramafic, metamorphic, carbonate, clastic]
         
         view.addSubview(electronMicroscopeLabel())
         view.addSubview(opticalMicroscopeLabel())
